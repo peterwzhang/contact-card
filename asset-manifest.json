@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/contact-card/static/css/main.f56fe3ba.css",
-    "main.js": "/contact-card/static/js/main.f406fd4d.js",
+    "main.js": "/contact-card/static/js/main.e70e94cc.js",
     "index.html": "/contact-card/index.html",
     "main.f56fe3ba.css.map": "/contact-card/static/css/main.f56fe3ba.css.map",
-    "main.f406fd4d.js.map": "/contact-card/static/js/main.f406fd4d.js.map"
+    "main.e70e94cc.js.map": "/contact-card/static/js/main.e70e94cc.js.map"
   },
   "entrypoints": [
     "static/css/main.f56fe3ba.css",
-    "static/js/main.f406fd4d.js"
+    "static/js/main.e70e94cc.js"
   ]
 }
