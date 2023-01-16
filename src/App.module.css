@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    /* background-image: url(../public/images/bg4.gif); */
+    /* background-color: #828a8f; */
+}
+
+.center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 450px;
+    /* border-radius: 25px;
+    border: 2px solid #5f6a72; */
+}

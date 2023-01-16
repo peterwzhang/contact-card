@@ -1,0 +1,16 @@
+.container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.profilePic {
+    height: 33%;
+    width: 33%;
+    clip-path: circle();
+}
+
+.banner{
+    width: 100%;
+}

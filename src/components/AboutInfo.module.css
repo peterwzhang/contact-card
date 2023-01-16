@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.aboutText {
+    font-family: 'Open Sans', sans-serif;
+    color: #9e1b32;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 0%;
+    margin: 0% 0% 1%;
+}
+
+.descText {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    font-size: 10px;
+    font-weight: 400;
+    margin: 0% 0% 0%;
+}
