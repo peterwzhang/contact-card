@@ -1,8 +1,7 @@
 .container {
     display: flex;
     flex-direction: column;
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 5%;
 }
 
 .aboutText {
@@ -11,7 +10,7 @@
     font-size: 17px;
     font-weight: 700;
     padding: 0%;
-    margin: 0% 0% 1%;
+    margin: 0%;
 }
 
 .descText {
@@ -19,5 +18,5 @@
     color: black;
     font-size: 11px;
     font-weight: 400;
-    margin: 0% 0% 0%;
+    margin: 0%;
 }
