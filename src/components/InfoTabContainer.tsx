@@ -1,11 +1,13 @@
-import InfoTab from "./InfoTab"
+import InfoTab from "./InfoTab";
 interface InfoTabContainerProps {
-    socials:Array<SocialInfo>
+    socials: Array<SocialInfo>;
 }
-export default function InfoTabContainer(props:InfoTabContainerProps){
+export default function InfoTabContainer(props: InfoTabContainerProps) {
     return (
         <div>
-            {props.socials.map(s => (<InfoTab key={s.type} social={s}></InfoTab>))}
+            {props.socials.map((s) => (
+                <InfoTab key={s.type} social={s}></InfoTab>
+            ))}
         </div>
-    )
+    );
 }

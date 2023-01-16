@@ -5,7 +5,7 @@ import MainInfo from "./components/MainInfo";
 import InfoTabContainer from "./components/InfoTabContainer";
 import AboutInfo from "./components/AboutInfo";
 
-const pfpPath: string = "/images/profilepic.jpg";
+const pfpPath: string = "./images/profilepic.jpg";
 const myName: string = "Peter Zhang";
 const myRole: string = "UA CS Graduate";
 const aboutMe: string =
