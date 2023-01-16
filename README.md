@@ -4,4 +4,4 @@ This is a simple React project that creates a digital contact card with a style 
 
 ## Preview
 
-![preview-pic](public/images/preview.png)
+<img src="public/images/preview.png" height=400px></src>
