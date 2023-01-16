@@ -5,7 +5,7 @@ interface InfoTabContainerProps {
 export default function InfoTabContainer(props:InfoTabContainerProps){
     return (
         <div>
-            {props.socials.map(s => (<InfoTab social={s}></InfoTab>))}
+            {props.socials.map(s => (<InfoTab key={s.type} social={s}></InfoTab>))}
         </div>
     )
 }
