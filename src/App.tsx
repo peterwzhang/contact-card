@@ -33,7 +33,7 @@ const socialArray: Array<SocialInfo> = [
     {
         type: "mail",
         title: "peter.w.zhang@gmail.com",
-        desc: "mail",
+        desc: "e-mail",
         link: "mailto:peter.w.zhang@gmail.com",
     },
     // { type: "instagram", title: "my instagram", desc: "instagram", link: ""},
