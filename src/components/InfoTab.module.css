@@ -16,9 +16,9 @@ a, a:hover, a:focus, a:active {
 }
 
 .circle {
-    border-radius: 30px;
-    height: 30px;
-    width: 30px;
+    border-radius: 36px;
+    height: 36px;
+    width: 36px;
     background-color: #9e1b32;
     display: flex;
     justify-content: center;
