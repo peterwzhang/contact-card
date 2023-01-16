@@ -1,20 +1,23 @@
-import { link } from 'fs'
-import styles from './InfoTab.module.css'
+import { link } from "fs";
+import styles from "./InfoTab.module.css";
 
-interface InfoTabProps{
-    social:SocialInfo
+interface InfoTabProps {
+    social: SocialInfo;
 }
 
-export default function InfoTab(props: InfoTabProps){
+export default function InfoTab(props: InfoTabProps) {
     return (
         <a href={props.social.link} className={styles.container}>
             <div className={styles.circle}>
-                <img className={styles.logo} src={`./images/socials/${props.social.type.toLowerCase()}.svg`}></img>
+                <img
+                    className={styles.logo}
+                    src={`./images/socials/${props.social.type.toLowerCase()}.svg`}
+                ></img>
             </div>
             <div className={styles.textContainer}>
                 <h3 className={styles.titleText}>{props.social.title}</h3>
                 <p className={styles.subText}>{props.social.desc}</p>
             </div>
         </a>
-    )
+    );
 }

@@ -4,8 +4,8 @@
     align-items: center;
 }
 
-.nameText{
-    font-family: 'Open Sans', sans-serif;
+.nameText {
+    font-family: "Open Sans", sans-serif;
     color: #9e1b32;
     font-size: 26px;
     font-weight: 700;
@@ -15,8 +15,8 @@
     line-height: 100%;
 }
 
-.roleText{
-    font-family: 'Open Sans', sans-serif;
+.roleText {
+    font-family: "Open Sans", sans-serif;
     color: #9e1b32;
     font-size: 14px;
     font-weight: 400;
