@@ -11,7 +11,7 @@ export default function ProfilePicture(props: ProfilePictureProps) {
             <img
                 className={styles.profilePic}
                 src={props.imgPath}
-                alt="Profile Picture"
+                alt="circular portrait"
             ></img>
         </div>
     );

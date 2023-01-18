@@ -1,4 +1,3 @@
-import { link } from "fs";
 import styles from "./InfoTab.module.css";
 
 interface InfoTabProps {
@@ -12,6 +11,7 @@ export default function InfoTab(props: InfoTabProps) {
                 <img
                     className={styles.logo}
                     src={`./images/socials/${props.social.type.toLowerCase()}.svg`}
+                    alt={`${props.social.type.toLowerCase()} logo`}
                 ></img>
             </div>
             <div className={styles.textContainer}>
