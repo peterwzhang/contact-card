@@ -9,7 +9,7 @@ const pfpPath: string = "./images/profilepic.jpg";
 const myName: string = "Peter Zhang";
 const myRole: string = "UA CS Graduate";
 const aboutMe: string =
-    "I recently graduated summa cum laude with my bachelors in computer science from the University of Alabama (UA). During my early years at UA, I used bash and python to automate tedious tasks which eventually lead to my passion in frontend design. I love learning about new ways to make tasks convenient for users.";
+    "I recently graduated summa cum laude with my bachelors in computer science from the University of Alabama (UA). I'm interested in full stack development and automation. I love learning about new ways to make tasks convenient and faster for users.";
 // there should only be one of each social media type.
 const socialArray: Array<SocialInfo> = [
     {
